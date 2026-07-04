@@ -1,0 +1,11 @@
+{
+  "name": "linkedin-lunatics",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix sanmarcos-jobs\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
